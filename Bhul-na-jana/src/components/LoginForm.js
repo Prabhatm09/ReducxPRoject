@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { authActions } from "./features/authriosed/authSlice";
+import { authActions } from "./features/authorize/authSlice";
 import { useNavigate } from "react-router-dom";
 import { Card, Button } from "antd";
 import { useSelector } from "react-redux";
